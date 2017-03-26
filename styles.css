@@ -1,0 +1,120 @@
+html, body {
+height: 100%;
+margin: 0;
+}
+
+#wrapper {
+  min-height: 100%;
+  height:100%; <!-- if IE -->
+  width: 100%;
+  min-width:100%;
+    }
+
+/* Font Styles */
+h1{
+  font-family: 'Questrial', sans-serif;
+  color: #f1f0f0;
+  font-size: 2em;
+  margin: 0;
+}
+h2{
+  font-family: 'Questrial', sans-serif;
+  color: #f1f0f0;
+  font-size: 1.5em;
+  margin: 0;
+}
+
+h3{
+  font-family: 'Questrial', sans-serif;
+  color: #f1f0f0;
+  font-size: 1em;
+  margin: 0;
+}
+
+p{
+  font-family: 'Sanchez', serif;
+  color: #f1f0f0;
+  font-size: .8em;
+  margin: 0;
+}
+
+/* Header Styles */
+header {
+  background-color: #70706d;
+  color: #f1f0f0;
+  padding: 10px 60px;
+  overflow:hidden;
+}
+
+#headerLogo {
+  width: 33%;
+  float: left;
+}
+
+#headerName {
+  width: 33%;
+  float: left;
+  text-align: center;
+  margin: 10px 0;
+}
+
+#titleName {
+  font-family: 'Questrial', sans-serif;
+  font-weight: lighter;
+  color: #f1f0f0;
+  font-size: 1.5em;
+}
+
+
+#headerNumber {
+  width: 32%;
+  float: right;
+  text-align: right;
+    margin: 10px 0;
+}
+
+#headerPhone {
+    font-family: 'Questrial', sans-serif;
+    color: #f1f0f0;
+    font-size: 1em;
+    margin: 0;
+
+}
+
+/* Media Queries */
+
+@media only screen and (max-width: 768px){
+  h1{
+    font-size: 1.2em;
+  }
+  h2{
+    font-size: 1em;
+  }
+
+  h3{
+    font-size: .75em;
+  }
+
+  p{
+    font-size: .65em;
+  }
+
+  /* Header Styles */
+  header {
+    padding: 30px 30px;
+  }
+
+  #headerLogo {
+    width: 100%;
+    text-align: center
+  }
+
+  #headerName {
+  display: none;
+  }
+
+  #headerNumber {
+    display: none;
+  }
+
+}
