@@ -40,7 +40,7 @@ margin: 0;
 
     p{
       font-family: 'Sanchez', serif;
-      color: #f1f0f0;
+      color: #70706d;
       font-size: .8em;
       margin: 0;
     }
@@ -59,6 +59,10 @@ margin: 0;
       color: #f1f0f0;
       padding: 10px 60px;
       overflow:hidden;
+    }
+
+    header p {
+      color: #f1f0f0;
     }
 
     #headerLogo {
@@ -85,7 +89,7 @@ margin: 0;
       width: 32%;
       float: right;
       text-align: right;
-        margin: 10px 0;
+      margin: 10px 0;
     }
 
     #headerPhone {
@@ -100,10 +104,30 @@ margin: 0;
       height: 20px;
     }
 
+/* Footer Styles */
+footer {
+  background-color: #70706d;
+  color: #f1f0f0;
+  margin: 120px 0 0 0;
+  padding: 10px 60px;
+  overflow:hidden;
+  text-align: center;
+  font-family: 'Questrial', sans-serif;
+  font-size: 1em;
+  line-height: 180%;
+  height:100px;;
+}
+
+#footerTxt {
+  margin-top: 20px;
+}
+
 /* Experience */
     #experienceGraph {
+      width: 100%;
       text-align: center;
       margin: 40px 0 0 0;
+
     }
     .title h2 {
       color: #bf745b;
@@ -121,7 +145,7 @@ margin: 0;
   .position {
     max-width: 768px;
     margin: 0 auto;
-    padding: 60px 0 0 0;
+    padding: 60px 30px 0 30px;
     overflow:auto;
   }
 
@@ -150,22 +174,36 @@ margin: 0;
     font-family: 'Sanchez', serif;
     font-size: 1em;
     margin: 20px 0 10px 0 ;
-
   }
+
+/* Programs */
+
+  #programs{
+    margin: 40px 0;
+  }
+
+  #progGraph{
+    width: 100%;
+  }
+  #programsMobile {
+    display: none;
+  }
+
 
 
 /* Media Queries */
 
 @media only screen and (max-width: 768px){
+
   h1{
     font-size: 1.5em;
   }
   h2{
-    font-size: 1.2em;
+    font-size: 1.4em;
   }
 
   h3{
-    font-size: 1em;
+    font-size: 1.3em;
   }
 
   h4{
@@ -194,4 +232,81 @@ margin: 0;
     display: none;
   }
 
+  .responsiblities {
+    width: 100%;
+    float: none;
+  }
+
+  .accomplishments {
+    width: 100%;
+    float: none;
+  }
+
 }
+
+@media only screen and (max-width: 550px){
+  #experienceGraph {
+    display: none;
+  }
+
+  #progGraph {
+    display: none;
+  }
+
+  .prgm {
+    text-align: center;
+    padding: 30px 0 0 0;
+  }
+  .prgm p {
+    padding: 10px 0 0 0;
+  }
+
+  #programsMobile {
+    margin: 20px;
+    display: block;
+    overflow: hidden;
+  }
+
+  #ill {
+    width: 45%;
+    float: left;
+  }
+
+  #ind {
+    width: 45%;
+    float: right;
+  }
+  #pht {
+    width: 45%;
+    float: left;
+  }
+
+  #html {
+    width: 45%;
+    float: right;
+  }
+
+
+  #wordPress {
+    width: 45%;
+    float: left;
+  }
+
+  #premiere {
+    width: 45%;
+    float: right;
+  }
+
+  .progImg{ width: 75px;}
+
+  footer {
+    padding: 10px 60px;
+    overflow:hidden;
+    text-align: center;
+    font-family: 'Questrial', sans-serif;
+    font-size: .75em;
+    line-height: 180%;
+    height: 100px;
+  }
+
+  }
