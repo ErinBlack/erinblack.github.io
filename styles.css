@@ -41,7 +41,7 @@ margin: 0;
     p{
       font-family: 'Sanchez', serif;
       color: #70706d;
-      font-size: .8em;
+      font-size: 1em;
       margin: 0;
     }
 
@@ -211,7 +211,7 @@ footer {
   }
 
   p{
-    font-size: .65em;
+    font-size: .8em;
   }
 
   /* Header Styles */
